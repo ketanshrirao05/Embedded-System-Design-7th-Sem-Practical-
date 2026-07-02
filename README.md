@@ -11,16 +11,16 @@ This repository contains production-ready Embedded C codes developed for the **A
 
 | Exp No. | Experiment Name | Description |
 |---|---|---|
-| 01 | [16-Bit Arithmetic Operations](./Exp01_16Bit_Arithmetic/) | 16-bit Addition, Subtraction, Multiplication, and Division. |
-| 02 | [Data Swapping](./Exp02_Data_Swapping/) | Swapping two 16-bit variables using a temporary storage block. |
-| 03 | [Factorial Calculation](./Exp03_Factorial_Calculation/) | Computing the factorial of a number using regular loop structures. |
-| 04 | [Binary to Gray / Gray to Binary](./Exp04_Code_Conversion/) | Data code conversions using logical bitwise shifting and XOR gates. |
-| 05 | [ARM Board Architecture Study](./Exp05_ARM_Board_Study/) | Summary details of the LPC2148 hardware architecture blocks. |
-| 06 | [Flashing of LEDs](./Exp06_LED_Flashing/) | Pin configuration (IODIR, IOSET, IOCLR) for sequential LED blinking. |
-| 07 | [Stepper Motor Interfacing](./Exp07_Stepper_Motor/) | Motor steps sequencing for Clockwise and Anti-Clockwise rotations. |
-| 08 | [Seven Segment Display](./Exp08_Seven_Segment/) | Multiplexing common-cathode displays to cycle counts from 11 to 99. |
-| 09 | [LM35 Temperature Monitoring](./Exp09_LM35_Temperature/) | Interfacing an analog sensor with internal 10-bit ADC channels. |
-| 10 | [Data Array Sorting](./Exp10_Array_Sorting/) | Bubble sorting logic applied to list structural values. |
+| 01 | [16-Bit Arithmetic Operations] | 16-bit Addition, Subtraction, Multiplication, and Division. |
+| 02 | [Data Swapping] | Swapping two 16-bit variables using a temporary storage block. |
+| 03 | [Factorial Calculation] | Computing the factorial of a number using regular loop structures. |
+| 04 | [Binary to Gray / Gray to Binary] | Data code conversions using logical bitwise shifting and XOR gates. |
+| 05 | [ARM Board Architecture Study] | Summary details of the LPC2148 hardware architecture blocks. |
+| 06 | [Flashing of LEDs]| Pin configuration (IODIR, IOSET, IOCLR) for sequential LED blinking. |
+| 07 | [Stepper Motor Interfacing] | Motor steps sequencing for Clockwise and Anti-Clockwise rotations. |
+| 08 | [Seven Segment Display] | Multiplexing common-cathode displays to cycle counts from 11 to 99. |
+| 09 | [LM35 Temperature Monitoring] | Interfacing an analog sensor with internal 10-bit ADC channels. |
+| 10 | [Data Array Sorting] | Bubble sorting logic applied to list structural values. |
 
 
 ## 📂 Repository Directory Layout
