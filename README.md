@@ -22,28 +22,29 @@ This repository contains production-ready Embedded C codes developed for the **A
 | 09 | [LM35 Temperature Monitoring](./Exp09_LM35_Temperature/) | Interfacing an analog sensor with internal 10-bit ADC channels. |
 | 10 | [Data Array Sorting](./Exp10_Array_Sorting/) | Bubble sorting logic applied to list structural values. |
 
+
+## 📂 Repository Directory Layout
+
+```text
 📦 arm7-esd-practicals-repo
  ┣ 📂 Exp01_16Bit_Arithmetic
- ┃ ┗ 📜 Exp1
+ ┃ ┗ 📜 Exp1.s
  ┣ 📂 Exp02_Data_Swapping
- ┃ ┗ 📜 Exp2
+ ┃ ┗ 📜 Exp2.s
  ┣ 📂 Exp03_Factorial_Calculation
- ┃ ┗ 📜 Exp3
+ ┃ ┗ 📜 Exp3.s
  ┣ 📂 Exp04_Code_Conversion
- ┃ ┗ 📜 Exp4
+ ┃ ┗ 📜 Exp4.s
  ┣ 📂 Exp05_ARM_Board_Study
  ┃ ┗ 📜 Experiment5_Notes.md
  ┣ 📂 Exp06_LED_Flashing
- ┃ ┗ 📜 Exp6
+ ┃ ┗ 📜 Exp6.s
  ┣ 📂 Exp07_Stepper_Motor
- ┃ ┗ 📜 Exp7
+ ┃ ┗ 📜 Exp7.s
  ┣ 📂 Exp08_Seven_Segment
- ┃ ┗ 📜 Exp8
+ ┃ ┗ 📜 Exp8.s
  ┣ 📂 Exp09_LM35_Temperature
- ┃ ┗ 📜 Exp9
+ ┃ ┗ 📜 Exp9.s
  ┣ 📂 Exp10_Array_Sorting
- ┃ ┗ 📜 Exp10
+ ┃ ┗ 📜 Exp10.s
  ┗ 📜 README.md
-5. Add the standard startup script `Startup.s` when prompted by Keil.
-6. Build the target files, generate the `.hex` file, and flash it to your hardware using **Flash Magic**.
-5. Build the target files, generate the `.hex` file, and flash it to your hardware using **Flash Magic**.
