@@ -1,27 +1,32 @@
 # ARM7 (LPC2148) Embedded System Design Practicals
 
-This repository contains production-ready Embedded C codes developed for the **ARM7TDMI (LPC2148) Development Board** using **Keil uVision IDE**. The curriculum covers fundamental arithmetic implementations, internal microcontroller structures, and peripheral hardware interfacing.
+This repository contains production-ready ARM Assembly Language (UAL) codes developed for the **ARM7TDMI (LPC2148) Development Board** using the **Keil uVision IDE**. The curriculum covers fundamental arithmetic implementations, internal microcontroller structures, and peripheral hardware interfacing.
+
+---
 
 ## 🛠️ Hardware & Software Environment
-* **Microcontroller Unit (MCU):** NXP LPC2148 (ARM7TDMI-S Core)
-* **IDE / Toolchain:** Keil uVision 4 / 5 with ARM RealView Compiler
-* **Simulation tool:** Keil Logic Analyzer / Proteus (optional)
+* [cite_start]**Microcontroller Unit (MCU):** NXP LPC2148 (ARM7TDMI-S Core) [cite: 22]
+* **IDE / Toolchain:** Keil uVision 4 / 5 with ARM RealView Assembler
+* **Simulation tool:** Keil Logic Analyzer / Peripherals Simulator / Flash Magic
+
+---
 
 ## 📌 Index of Experiments
 
-| Exp No. | Experiment Name | Description |
-|---|---|---|
-| 01 | [16-Bit Arithmetic Operations] | 16-bit Addition, Subtraction, Multiplication, and Division. |
-| 02 | [Data Swapping] | Swapping two 16-bit variables using a temporary storage block. |
-| 03 | [Factorial Calculation] | Computing the factorial of a number using regular loop structures. |
-| 04 | [Binary to Gray / Gray to Binary] | Data code conversions using logical bitwise shifting and XOR gates. |
-| 05 | [ARM Board Architecture Study] | Summary details of the LPC2148 hardware architecture blocks. |
-| 06 | [Flashing of LEDs]| Pin configuration (IODIR, IOSET, IOCLR) for sequential LED blinking. |
-| 07 | [Stepper Motor Interfacing] | Motor steps sequencing for Clockwise and Anti-Clockwise rotations. |
-| 08 | [Seven Segment Display] | Multiplexing common-cathode displays to cycle counts from 11 to 99. |
-| 09 | [LM35 Temperature Monitoring] | Interfacing an analog sensor with internal 10-bit ADC channels. |
-| 10 | [Data Array Sorting] | Bubble sorting logic applied to list structural values. |
+| Exp No. | Experiment Name | Architectural / Logical Objective | Source Directory |
+| :---: | :--- | :--- | :--- |
+| **01** | 16-Bit Arithmetic Operations | [cite_start]Implements multi-operation blocks (`add`, `sub`, `mul`) using halfword directives (`ldrh`), alongside a repeated logical subtraction loop to resolve division. [cite: 23] | `Exp01_16Bit_Arithmetic/` |
+| **02** | Data Swapping | [cite_start]Handles register-to-register switching dynamics and basic scratchpad assignments using temporary placeholder allocations. [cite: 24] | `Exp02_Data_Swapping/` |
+| **03** | Factorial Computation | [cite_start]Processes loop counter logic, conditional execution states (`bne`), and progressive multiplication steps (`mul`). [cite: 25] | `Exp03_Factorial_Calculation/` |
+| **04** | Binary & Gray Conversion | [cite_start]Applies mathematical bitwise transformations including Logical Shift Right (`lsr`) operations combined with Exclusive OR (`eor`) masking patterns. [cite: 26] | `Exp04_Code_Conversion/` |
+| **05** | ARM Board Technical Study | [cite_start]Core hardware reference map evaluating internal structures including memory maps, PLL modules, VPB buses, and PINSEL registers. [cite: 27] | `Exp05_ARM_Board_Study/` |
+| **06** | Flashing of LEDs | [cite_start]Configures Pin Function Select Registers (`PINSEL`), sets output direction maps (`IO0DIR`), and manipulates Pin Value Registers (`IO0SET`/`IO0CLR`) via assembly patterns. [cite: 27] | `Exp06_LED_Flashing/` |
+| **07** | Stepper Motor Interfacing | Generates 4-phase step sequences pushed to specific GPIO address maps to control directional rotation loops (Clockwise/Anti-Clockwise). | `Exp07_Stepper_Motor/` |
+| **08** | Seven Segment Display (11-99) | Executes multiplexed data line scanning arrays to map hexadecimal segment patterns to multiple cathode display lines. | `Exp08_Seven_Segment/` |
+| **09** | LM35 Temperature Monitor | Configures the A/D Control Register (`AD0CR`), polls the Global Data Register (`AD0GDR`) status flags, and formats the output data array. | `Exp09_LM35_Temperature/` |
+| **10** | Data Array Sorting | Implements a complete conditional Bubble Sort sequence using multi-register indexed loops (`cmp`, `str`, `ldr`). | `Exp10_Array_Sorting/` |
 
+---
 
 ## 📂 Repository Directory Layout
 
