@@ -1,0 +1,2 @@
+Dependencies for Project 'exp2', Target 'Target 1': (DO NOT MODIFY !)
+F (.\exp2_code.s)(0x6A6880DE)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\Philips" --list "exp2_code.lst" --xref -o "exp2_code.o")
