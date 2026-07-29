@@ -1,0 +1,2 @@
+Dependencies for Project 'exp4', Target 'Target 1': (DO NOT MODIFY !)
+F (..\exp2\gray_to_bcd.s)(0x6A6883A8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\Philips" --list ".\gray_to_bcd.lst" --xref -o ".\gray_to_bcd.o")
