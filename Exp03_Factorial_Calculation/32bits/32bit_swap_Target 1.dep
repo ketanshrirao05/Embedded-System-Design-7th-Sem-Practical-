@@ -1,0 +1,2 @@
+Dependencies for Project '32bit_swap', Target 'Target 1': (DO NOT MODIFY !)
+F (..\16bitswap\16_bit_swap.s)(0x6A5F4F78)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\Philips" --list ".\16_bit_swap.lst" --xref -o ".\16_bit_swap.o")
